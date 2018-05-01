@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Our Menu</title>
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+
+</head>
+<body>
+  <h1>Our Menu</h1>
+
+  <section id="sec1">
+    <div class="continut">
+      <div class"titlu">Chicken</div>
+        <p>lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum<p>
+      </div>
+  </section>
+
+  <section id="sec2">
+  	<div class="continut">
+  		<div class="titlu">Beef</div>
+  		<p>lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum</p>
+  	</div>
+  </section>
+
+  <section id="sec3">
+  	<div class="continut">
+  		<div class="titlu">Sushi</div>
+  		<p>lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum</p>
+  	</div>
+  </section>
+  </body>
+  <style>
+  * { box-sizing: border-box; }
+
+   body {
+   	font-family: arial;
+   }
+
+   h1 {
+   	text-align: center;
+   	font-size: 1.75rem;
+   }
+   .titlu {
+   	position: absolute;
+   	top: 0;
+   	right: 0;
+   	border: 1px solid black;
+   	font-size: 1.25rem;
+   }
+
+   #sec1, #sec2, #sec3 {
+
+   	padding: 12px;
+
+   }
+
+   #sec1 .continut, #sec2 .continut, #sec3 .continut {
+   	font-size: 1rem;
+   	background-color: #0DD37E;
+   	position: relative;
+   	border:1px solid black;
+   	padding-top: 12px;
+
+
+
+   }
+
+  #sec1 .titlu {
+  	background-color: #065C37;
+
+  }
+
+  #sec2 .titlu {
+  	background-color: #B95B37;
+  }
+
+  #sec3 .titlu {
+  	background-color: #0D4EE1;
+  }
+
+  /* desktop  */
+  @media only screen and (min-width: 992px) {
+  	#sec1, #sec2, #sec3 {
+  		display: inline-block;
+  		width: 33%;
+  	}
+  }
+
+  /*tablet*/
+  @media only screen and (min-width:768px) and (max-width: 991px) {
+  	#sec1, #sec2, #sec3 {
+  		display: inline-block;
+  	}
+
+  	#sec1, #sec2 {
+  		width: 49.7%;
+  	}
+
+  	#sec3 {
+  		width: 100%;
+  	}
+
+  }
+
+  /*mobile*/
+  @media only screen and (max-width: 767px) {
+  	#sec1, #sec2, #sec3 {
+  		display: inline-block;
+  		width: 100%;
+  	}
+
+  }
+  </style>
+</body>
+  </html>
+  
